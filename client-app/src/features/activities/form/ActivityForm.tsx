@@ -2,8 +2,8 @@ import { observer } from 'mobx-react-lite';
 import React, { ChangeEvent, useEffect, useState } from 'react';
 import { useHistory, useParams } from 'react-router';
 import { Button, Form, Segment } from 'semantic-ui-react';
-import LoadingComponenet from '../../../../app/layout/LoadingComponent';
-import { useStore } from '../../../../app/stores/store';
+import LoadingComponenet from '../../../app/layout/LoadingComponent';
+import { useStore } from '../../../app/stores/store';
 import { v4 as uuid } from 'uuid';
 import { Link } from 'react-router-dom';
 

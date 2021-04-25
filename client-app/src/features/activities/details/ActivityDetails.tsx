@@ -3,8 +3,8 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import { Button, Card, Image } from 'semantic-ui-react';
-import LoadingComponenet from '../../../../app/layout/LoadingComponent';
-import { useStore } from '../../../../app/stores/store';
+import LoadingComponenet from '../../../app/layout/LoadingComponent';
+import { useStore } from '../../../app/stores/store';
 
 export default observer(function ActivityDetais() {
     const {activityStore} = useStore();
