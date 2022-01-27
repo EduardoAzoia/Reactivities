@@ -16,7 +16,7 @@ export default observer(function ActivityDashboard() {
         }
     }, [activityRegistry, loadActivities])
   
-    if (loadingInitial) return<LoadingComponenet content='Loading app' />
+    if (loadingInitial) return<LoadingComponenet content='Loading activities...' />
 
     return (
         <Grid>
